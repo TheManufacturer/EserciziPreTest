@@ -1,5 +1,25 @@
+import java.util.Scanner;
 public class Main {
-    public static void main(String[] args){
+    public static void main(String[] args){  
+        
+        Scanner scanner = new Scanner(System.in);
+
+
+        System.out.println("Inserisci la base...");
+        double base = scanner.nextDouble();
+        System.out.println("Inserisci l'altezza...");
+        double altezza= scanner.nextDouble(); 
+
+    
+        Forma forma = new Forma(); 
+        Rettangolo rettangolo = new Rettangolo();
+
+        //chiamata dei metodi
+
+        forma.calcolaArea(base, altezza);   
+        rettangolo.calcolaArea(base, altezza);
+
+        scanner.close();
 
     }
 }
