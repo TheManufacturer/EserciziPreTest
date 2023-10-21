@@ -33,7 +33,7 @@ aggiungere una ulteriore classe chiamata Triangolo
 supportando poi il calcolo dell'area per quest'ultima figura.
 
 
-{
+{ PROGRAMMA PRECEDENTE
 Scrivere un programma che contenga una classe chiamata Forma
     ed un metodo chiamato calcolaArea() che stampi l'area della forma.
 
