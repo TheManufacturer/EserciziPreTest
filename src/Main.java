@@ -1,5 +1,6 @@
 import java.util.Scanner;
-public class Main {
+public class Main { 
+
     public static void main(String[] args){  
         
         Scanner scanner = new Scanner(System.in);
@@ -24,10 +25,8 @@ public class Main {
 }
 
 /*
-Scrivere un programma che contenga una classe astratta chiamata Forma
-un metodo astratto chiamato calcolaArea().
+Scrivere un programma che contenga una interfaccia Forma ed un metodo chiamato calcolaArea().
 
 Crea poi due sottoclassi Rettangolo e Triangolo 
-che estendono Forma 
-ed implementano il metodo per il calcolo dell'area in maniera specifica.
+    che implementano Forma ed implementano il metodo per il calcolo dell'area.
  */

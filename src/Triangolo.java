@@ -1,4 +1,4 @@
-public class Triangolo extends Forma {
+public class Triangolo implements Forma {
 
     @Override
     public void calcolaArea(double base , double altezza) {

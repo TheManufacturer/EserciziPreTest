@@ -1,6 +1,5 @@
-public class Rettangolo extends Forma {
+class Rettangolo implements Forma {
 
-    @Override
     public void calcolaArea(double base , double altezza) {
         
         double b=base;
