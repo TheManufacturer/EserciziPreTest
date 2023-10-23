@@ -11,13 +11,10 @@ public class Main {
         double altezza= scanner.nextDouble(); 
 
     
-        Forma forma = new Forma(); 
         Rettangolo rettangolo = new Rettangolo();
         Triangolo triangolo = new Triangolo();
 
         //chiamata dei metodi
-
-        forma.calcolaArea(base, altezza);   
         rettangolo.calcolaArea(base, altezza);
         triangolo.calcolaArea(base, altezza);
 
