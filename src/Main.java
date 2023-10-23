@@ -24,18 +24,10 @@ public class Main {
 }
 
 /*
-A partire dal programma creato precedentemente 
-in cui si richiedeva il calcolo dell'area 
-aggiungere una ulteriore classe chiamata Triangolo 
-supportando poi il calcolo dell'area per quest'ultima figura.
+Scrivere un programma che contenga una classe astratta chiamata Forma
+un metodo astratto chiamato calcolaArea().
 
-
-{ PROGRAMMA PRECEDENTE
-Scrivere un programma che contenga una classe chiamata Forma
-    ed un metodo chiamato calcolaArea() che stampi l'area della forma.
-
-Crea poi una sottoclasse chiamata Rettangolo 
-    che fa override del metodo calcolaArea() per calcolare l'area del rettangolo.
-}
-
+Crea poi due sottoclassi Rettangolo e Triangolo 
+che estendono Forma 
+ed implementano il metodo per il calcolo dell'area in maniera specifica.
  */
