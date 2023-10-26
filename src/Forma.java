@@ -5,7 +5,8 @@ enum TipoForma{
 }
 
 public abstract class Forma {
-
-    public void calcolaArea(double base, double altezza, TipoForma tipo){
+    public void calcolaArea(double base, double altezza, TipoForma tipo)
+    {
+        
     }
 } 

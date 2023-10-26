@@ -7,6 +7,7 @@ public class Triangolo extends Forma {
         
         //controlliamo una cosetta
         if(base>0 && altezza>0){
+            
             if(tipo == TipoForma.TRIANGOLO){
                 
             // Calcolo dell'area del triangolo
