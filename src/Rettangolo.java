@@ -1,15 +1,18 @@
 class Rettangolo implements Forma {
 
+    private double altezza;
+    private double base;
+
     public void calcolaArea(double base , double altezza) {
         
-        double b=base;
-        double h=altezza;
+        this.base = base;
+        this.altezza = altezza;
         
         //controlliamo una cosetta
-        if(base>0 && altezza>0){
+        if(this.base>0 && this.altezza>0){
 
         // Calcolo dell'area del rettangolo
-        double area = b * h;
+        double area = base * altezza;
         System.out.println("L'area del rettangolo è: " + area);
         }else{
 

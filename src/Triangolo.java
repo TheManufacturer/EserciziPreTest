@@ -1,16 +1,17 @@
 public class Triangolo implements Forma {
+        private double altezza;
+        private double base;
 
-    @Override
+
     public void calcolaArea(double base , double altezza) {
-        
-        double b=base;
-        double h=altezza;
-        
+
+        this.base = base;
+        this.altezza = altezza;
         //controlliamo una cosetta
         if(base>0 && altezza>0){
 
         // Calcolo dell'area del triangolo
-        double area = (b * h)/2;
+        double area = (this.base * this.altezza)/2;
 
         System.out.println("L'area del triangolo è: " + area);
         
