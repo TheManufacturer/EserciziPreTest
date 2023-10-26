@@ -1,22 +1,22 @@
-public class Triangolo implements Forma {
+public class Triangolo extends Forma {
 
-    @Override
-    public void calcolaArea(double base , double altezza) {
+    public void calcolaArea(double base , double altezza,TipoForma tipo) {
         
         double b=base;
         double h=altezza;
         
         //controlliamo una cosetta
         if(base>0 && altezza>0){
-
-        // Calcolo dell'area del triangolo
-        double area = (b * h)/2;
-
-        System.out.println("L'area del triangolo è: " + area);
+            if(tipo == TipoForma.TRIANGOLO){
+                
+            // Calcolo dell'area del triangolo
+            double area = (b * h)/2;
+            System.out.println("è un triangolo...quindi--> " + "L'area del triangolo è: " + area);
         
-        }else{
+            }else{
 
             System.out.println("Non penso sia possibile calcolare l'area con un qualcosa di non positivo..." );
+            }
         }
     }
 }

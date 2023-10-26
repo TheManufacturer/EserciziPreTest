@@ -1,19 +1,22 @@
-class Rettangolo implements Forma {
+class Rettangolo extends Forma {
 
-    public void calcolaArea(double base , double altezza) {
+    public void calcolaArea(double base , double altezza,TipoForma tipo) {
         
         double b=base;
         double h=altezza;
         
         //controlliamo una cosetta
         if(base>0 && altezza>0){
+            if(tipo ==TipoForma.RETTANGOLO){ 
 
-        // Calcolo dell'area del rettangolo
-        double area = b * h;
-        System.out.println("L'area del rettangolo è: " + area);
-        }else{
+            // Calcolo dell'area del rettangolo
+            double area = b * h;
+            System.out.println("è un rettangolo...quindi--> "+ "L'area del rettangolo è: " + area);        
+            }else{
 
-            System.out.println("Non penso sia possibile calcolare l'area con un qualcosa di non positivo..." );
+            System.out.println("Forse non è un rettangolo...xD" );
+            }
         }
+
     }
 }
