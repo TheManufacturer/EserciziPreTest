@@ -9,6 +9,7 @@ public class Main {
 
         System.out.println("Inserisci la base...");
         double base = scanner.nextDouble();
+        
         System.out.println("Inserisci l'altezza...");
         double altezza= scanner.nextDouble(); 
 
@@ -18,7 +19,7 @@ public class Main {
 
         //chiamata dei metodi
         rettangolo.calcolaArea(base, altezza,TipoForma.RETTANGOLO);
-        triangolo.calcolaArea(base, altezza,TipoForma.TRIANGOLO);
+        triangolo.calcolaArea(base, altezza, TipoForma.TRIANGOLO);
 
         scanner.close();
 
@@ -26,11 +27,8 @@ public class Main {
 }
 
 /*
-Enum---
-Scrivere un programma che contenga una classe chiamata Forma 
-       avente un metodo chiamato calcolaArea()    -->     che stampi l'area della forma specifica.
+Scrivere un programma che contenga una interfaccia Forma ed un metodo chiamato calcolaArea().
 
-Crea poi due sottoclassi Triangolo e Rettangolo che estendono Forma 
-        che abbiano un tipo che ne identifichi la Forma in maniera univoca usando una enum.
-
+Crea poi due sottoclassi Rettangolo e Triangolo 
+    che implementano Forma ed implementano il metodo per il calcolo dell'area.
  */

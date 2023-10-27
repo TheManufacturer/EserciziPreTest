@@ -10,7 +10,7 @@ class Rettangolo extends Forma {
         this.altezza = altezza;
         
         //controlliamo una cosetta
-        if(base>0 && altezza>0){
+        if(this.base>0 && this.altezza>0){
             if(tipo ==TipoForma.RETTANGOLO){ 
 
             // Calcolo dell'area del rettangolo
